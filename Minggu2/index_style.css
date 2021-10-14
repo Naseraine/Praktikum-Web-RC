@@ -78,13 +78,8 @@ main{
 }
 
 .bio-table {
-    color: #000000;
-    outline-color: #ffffff;
-    background-color: #ffffff;
     margin-top: 50px;
     border-collapse: collapse;
-    border-radius: 10px 10px 10px 10px;
-    overflow: hidden;
     font-size: 18px;
 }
 
@@ -102,6 +97,29 @@ main{
     font-size: 18px;
 }
 
+.sidepage{
+    background-color: rgba(153, 153, 153,0.3);
+    height: auto;
+    width: 20%;
+    display: flex;
+    padding: 20px;
+    display: inline-block;
+}
+
+.sidepage h2{
+    background-color: rgb(53, 53, 53);
+}
+.sidepage h3{
+    font-size: 14pt;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.sidepage img{
+    justify-content: center;
+    width: 200px;
+    padding-left: 30px;
+}
 
 
 footer{
