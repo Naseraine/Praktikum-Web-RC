@@ -17,20 +17,9 @@ header{
     width: 100%;
 }
 
-h1.text_header{
-    margin-right: 35pt;
-    color: rgb(255, 255, 255);
-    text-align: right;
-    font-size: 20px;
-}
-h1.text_header:hover{
-    color: rgb(255, 251, 38);
-    transition: 25ms;
-}
-
 img.logo_header{
-    height: 60px;
-    width: 200px;
+    height: 70px;
+    width: 180px;
 }
 
 nav{
@@ -61,6 +50,59 @@ nav ul li a:hover{
     color: rgb(255, 251, 38);
     transition: 25ms;
 }
+
+main{
+    padding: 40px;
+    display:flex;
+    height: auto;
+    width: auto;
+}
+
+.mainpage{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    align-items: center;
+    display: inline-block;
+}
+
+.mainpage h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.mainpage h1:hover{
+    color: rgb(255, 251, 38);
+    transition: 25ms;
+}
+
+.bio-table {
+    color: #000000;
+    outline-color: #ffffff;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.bio-table td:hover {
+    color: rgb(255, 251, 38);
+    transition: 25ms;
+}
+
+.bio-table th{
+    padding: 12px 15px;
+}
+
+.bio-table td {
+    padding: 12px 15px;
+    font-size: 18px;
+}
+
+
 
 footer{
     margin-top: 130px;
