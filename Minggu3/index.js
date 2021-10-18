@@ -39,8 +39,8 @@ function chooseWeather(){
     else if (option.options[option.selectedIndex].value == "cloudy") {
 		document.getElementById("weather").innerHTML = "It is nice and cloudy outside today, wear a nice clothes and don't forget to bring an umbrella and watch out for clouds getting dark.";
 	}
-    else if (option.options[option.selectedIndex].value == "cloudy") {
-		document.getElementById("weather").innerHTML = "Today is sunny and cloudy, wear warm clothes and wear gloves, be careful when going out and pay close attention to the road.";
+    else if (option.options[option.selectedIndex].value == "foogy") {
+		document.getElementById("weather").innerHTML = "Today is foggy and cloudy, wear warm clothes and wear gloves, be careful when going out and pay close attention to the road.";
 	}
 	else{
 		document.getElementById("weather").innerHTML = "";
@@ -48,7 +48,7 @@ function chooseWeather(){
 }
 
 function getResult (){
-	let number =  document.getElementById("factorial");
+	let number =  document.getElementById("getFactorial");
 	let result = 1;
     for(let i = 1; i <= number.value; i++) {
       result *= i;
